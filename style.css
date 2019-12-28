@@ -143,3 +143,36 @@ p::selection{
 p::after{
     content: '...';
 }
+@media screen and (max-width:560px){
+    .banner h2{
+        font-size: 2em;        
+    }
+    .banner .welcome{
+        position: relative;
+        padding: 10px;
+        text-align: center;
+    }
+    .banner .welcome span{
+        font-size: 1em;
+    }
+    .banner .welcome br{
+        display: none;
+    }
+    header{
+        position: relative;
+    }
+    nav{
+        top: 0;
+    }
+    nav li{
+        font-size: 1em;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 5px auto;
+    }
+    .images li{
+        display: block;
+        width: 100%;
+    }
+}
